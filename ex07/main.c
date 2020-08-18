@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-extern long long int assembly(char* player1, char* player2);
+extern char assembly(char* player1, char* player2);
 
 int main(void)
 {
