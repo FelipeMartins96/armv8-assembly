@@ -77,9 +77,11 @@ l4:
 // zero words can be formed
 exit_0:
 	MOV X0, XZR
+	ADD SP, SP, #52
 	BR X30
 exit:
 	MOV X0, X12
+	ADD SP, SP, #52
 	BR X30
 
 

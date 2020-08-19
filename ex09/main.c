@@ -6,8 +6,8 @@ extern long long int assembly(char* string, char* word);
 
 int main(void)
 {
-	char str[] = "aaaaa";
-	char word[] = "aa";
+	char str[] = "grnrclszemskvbgcluwtgyvieip";
+	char word[] = "leg";
 	long long int result;
 
 	result = assembly(str, word);
